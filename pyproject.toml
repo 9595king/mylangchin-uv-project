@@ -39,3 +39,6 @@ mylangchin-uv-project = "mylangchin_uv_project:main"
 [build-system]
 requires = ["uv_build>=0.12.23,<0.13.0"]
 build-backend = "uv_build"
+
+[tool.uv]
+package = false   # 근거: "이 프로젝트를 패키지로 빌드·설치할까?"에 대한 답
