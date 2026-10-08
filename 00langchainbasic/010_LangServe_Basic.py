@@ -50,7 +50,7 @@ chain = prompt | llm
 
 # 방법 1: input_type을 딕셔너리로 설정
 add_routes(
-    app, 
+    app, #FastAPI
     chain, 
     path="/chat",
     input_type=Dict[str, Any],  # 딕셔너리 타입으로 변경

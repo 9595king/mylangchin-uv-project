@@ -17,7 +17,7 @@
 #
 # [Git Bash / Linux / macOS] 작은따옴표로 JSON 을 감쌈
 #   curl -X POST http://127.0.0.1:8000/chat -H "Content-Type: application/json" -d '{"question": "What is LangChain?"}'
-#   curl -N -X POST http://127.0.0.1:8000/chat/stream -H "Content-Type: application/json" -d '{"question": "LangChain이 뭐야?"}'
+#   curl -N -X POST http://127.0.0.1:8000/chat/stream -H "Content-Type: application/json" -d '{"question": "What is LangChain?"}'
 #
 # * 한글이 깨지면 PowerShell 에서 먼저 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8 실행
 # * 브라우저에서 http://127.0.0.1:8000/docs (Swagger UI)로도 /chat 을 테스트할 수 있음

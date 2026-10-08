@@ -10,7 +10,7 @@ requires-python = ">=3.12"
 dependencies = [
     "docx2txt>=0.9",
     "faiss-cpu>=1.15.1",
-    "fastapi>=0.142.2",
+    "fastapi[standard]>=0.142.2",
     "gradio>=6.17.3",
     "gradio-pdf>=0.0.24",
     "langchain>=1.4.3",
@@ -39,3 +39,6 @@ mylangchin-uv-project = "mylangchin_uv_project:main"
 [build-system]
 requires = ["uv_build>=0.12.23,<0.13.0"]
 build-backend = "uv_build"
+
+[tool.uv]
+package = false
