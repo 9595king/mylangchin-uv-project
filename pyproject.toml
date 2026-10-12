@@ -31,6 +31,7 @@ dependencies = [
     "sse-starlette>=3.5.0",
     "tokenizers>=0.20.0,<0.21.0",
     "transformers>=4.46.3",
+    "unstructured[docx]>=0.27.25",
     "uvicorn>=0.54.0",
 ]
 
