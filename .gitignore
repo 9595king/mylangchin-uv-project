@@ -16,4 +16,4 @@ wheels/
 db/
 
 # gradio log
-.gradio
+03ChatBot/.gradio
